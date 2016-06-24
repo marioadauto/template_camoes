@@ -1,0 +1,39 @@
+.dp-upcoming-calendar {
+	float: left;
+	margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+	margin-right: 6px;
+	width: 42px;
+	height: 42px;
+	background-color: #ff0000;
+    padding:0px;
+}
+
+.dp-upcoming-text-month {
+	color: #FFFFFF;
+	padding: 0px;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+    text-transform: uppercase;
+}
+
+.dp-upcoming-text-day {
+	color: #FFFFFF;
+	margin:0px;
+    font-family:arial,sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height:1.4em;
+	width: 42px;
+	text-align: center;
+	padding:0px;
+    margin-top: -2px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+

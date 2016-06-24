@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+a
+<extension version="3.3" type="template" client="site" method="upgrade">
+	
+	<name>Camoes por Mario Silva</name>
+	<creationDate>2016-05-13</creationDate>
+	<author>Mario Eduardo Silva</author>
+	<copyright>Copyright © /</copyright>
+	<authorEmail>contato@marioeduardo.com</authorEmail>
+	<authorUrl>http://www.lusitas.pt/</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[ 
+		<h1>Camoes por Fundmanager|Seamlink</h1>
+		<p>Template criado para o Instituto Camões com a parceria da <a href="http://www.fundmanager.pt" title="Fundmanager" target="_blank">Fundmanager</a> & <a href="http://seamlink.com/" title="Seamlink" target="_blank">Seamlink</a></p>
+	]]></description>
+	
+	<files><!-- no need to change -->
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>offline.php</filename>
+		<filename>runless.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>menu-mobile</position>
+		<position>topbar</position>
+		<position>navbar</position>
+		<position>search</position>
+		<position>header</position>
+      	<position>header-search</position>
+		<position>position-banner</position>
+		<position>section-destak</position>
+		<position>banner-1</position>
+		<position>aside-category-filter</position>
+		<position>aside-left</position>
+		<position>aside-right</position>
+		<position>aside-filter</position>
+		<position>menu_home</position>	
+		<position>section-1</position>
+		<position>footer</position>
+	    <position>after-article-1</position>
+    	<position>after-article-2</position>
+    	<position>after-article-3</position>
+    	<position>after-article-4</position>
+    	<position>after-article-5</position>
+    	<position>after-article-6</position>
+    	<position>noticias</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-4.1</position>
+		<position>position-5.1</position>
+		<position>position-6</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+
+				<field name="runless" type="radio" default="1" label="Rodar Compilador Less" description="">
+					<option value="0">Não</option>
+					<option value="1">Sim</option>
+				</field>
+
+				<field name="logoFile" type="media"
+					label="Logo do site" description="Suba a logo do site" />
+
+					<field name="copyright"  type="text" default=""
+					label="Copyright do site"
+					description="Copyright do site" class="input-block-level"
+					filter="string" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
